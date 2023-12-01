@@ -1,0 +1,63 @@
+*{
+    /* background-color: aqua; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#Heading{
+    height: 7vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    /* font-weight: 600; */
+    padding: 5px;
+}
+#idName{
+    height: 5vh;
+    background-color: blueviolet;
+}
+#textBody{
+    height: 81.5vh;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+}
+.msgAlign{
+    align-self: flex-end;
+}
+/* align-item:-is for every child
+align-self:-for perticular child */
+
+#textBtn{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: orangered;
+   
+}
+#textArea{
+    flex: 0.87;
+    height: 6vh;
+     margin: 0.5px 3.5px;
+}
+#sendBtn{
+    flex: 0.1;
+    height:6vh;
+     margin: 0.5px 3.5px;
+}
+#chatRoomContainer{
+    /* display: none;    WE HAVE TO UNCOMMENT THIS LINE*/
+    display: none;
+}
+/* #form{
+    display: none;
+} */
+.msg{
+    background-color: #dcf8c6;
+    max-width: fit-content;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}

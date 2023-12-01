@@ -1,0 +1,19 @@
+1-io:-Input Output but we consider io as alternative of fetch.
+2-If any socket emit any msg another socket will not be able to listen that msg.
+3-msg emit from the socket will go to the io and io revert back that msg to every socket include in which that msg has been received.
+4-V8 engine is inside the chrome to run js code.
+5-But as we clone the engine in our terminal this is known as Node.js(run time enviroment)
+---------------------------------------------------------------------------------------------------------------
+step to write backend:-
+1-Install node.js(check by node -v);
+2- npm init -y(npm init)->to install tha npm in project.(it increase 1 file:-package.json);
+
+package.json:-tell us it depend on express and its version.
+
+3-npm i express or npm install express->install express code in project;(it increase 2 file:-1-node_modules & 2- package-lock.json)
+
+1-node_modules:-it is a library having different method and class(we simple ignore it while sharing repo bcz it easy install from the terminal); 
+2-package-lock.json:-it lock the version of express which we use in the project;
+
+ if we want to run any file in terminal we write:-node filename;
+(if we want to run any js file we link it with html and open live server which open in browser).

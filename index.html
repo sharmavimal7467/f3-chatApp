@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form class="form-userInfo" id="form">
+    <h1>Join Chat</h1>
+    <p>UserName</p>
+    <input type="text" placeholder="Enter Your Name..." id="UserName" required/>
+    <p>Enter Mobile no.</p>
+    <input type="text" placeholder="Enter Your Friend Number" id="userNumber" required>
+    <button id="Login" type="submit">Login</button>
+   </form>
+ 
+
+
+
+    <!-- <h1>Hello</h1> -->
+   <div id="chatRoomContainer">
+    <h2 id="Heading">Let's Chat</h2>
+    <!-- <div id="idName">Dp & Name</div> -->
+    <div id="textBody">
+        <!-- <p class="msg">Recived Message right side</p>
+        <p class="msg msgAlign">Send Message left side</p> -->
+    </div>
+    <div id="textBtn">
+        <input id="textArea" type="text" placeholder="Enter Your Message Here...">
+        <button id="sendBtn">send</button>
+    </div>
+
+
+   </div>
+    
+
+
+   <script src="https://cdn.socket.io/4.7.2/socket.io.min.js" integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <!-- ui import the socket from this cdn link and backend get the socket from node.js.
+    we write scriot file down of cdn bcz we use socket in js
+    -->
+</body>
+</html>
